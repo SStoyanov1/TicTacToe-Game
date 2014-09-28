@@ -26,4 +26,4 @@ var app = angular.module('myApp', ['ngRoute', 'ngResource', 'ngCookies']).
             .otherwise({ redirectTo: '/' });
     }])
     .value('toastr', toastr)
-    .constant('baseServiceUrl', 'http://localhost:4444');
+    .constant('baseServiceUrl', 'http://tictactoe-20.apphb.com');
